@@ -1,0 +1,12 @@
+.bg{
+  background-color: #24353F;
+}
+.container{
+  width:65% !important;
+}
+.w-80{
+  width: 80% !important;
+}
+input::placeholder{
+  color: white !important;
+}

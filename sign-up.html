@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="bg pt-4">
+    <div class="container mt-4 pt-1 pb-5 shadow form-control bg">
+      <h1 class="text-capitalize text-center mt-5 text-info">
+        smart login system
+      </h1>
+      <div
+        class="input-container d-flex justify-content-center align-items-center flex-column"
+      >
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Your Name"
+          name="name"
+          class="mt-3 w-80 bg-transparent form-control text-white"
+        />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Your Email"
+          name="email"
+          class="mb-3 mt-3 w-80 bg-transparent form-control text-white"
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter Your Password"
+          name="password"
+          class="w-80 bg-transparent form-control text-white"
+        />
+        <button class="w-80 mt-4 btn btn-outline-info form-control" id="button">
+          Sign Up
+        </button>
+      </div>
+      <p class="text-center text-white mt-3">
+        You Already have an account?
+        <a href="index.html" class="text-decoration-none text-white">Sign in</a>
+      </p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/sign-up.js"></script>
+  </body>
+</html>
